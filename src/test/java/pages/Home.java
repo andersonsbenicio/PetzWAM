@@ -16,6 +16,8 @@ public class Home extends Base {
     private WebElement btnSearch;
 
     // 2 - Construtor
+
+    // Construtor da Página - Diferente do construtor, ele não possui um objeto privado e importa a classe Base
     public Home(WebDriver driver) {
         super(driver);
     }
