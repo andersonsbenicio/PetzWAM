@@ -17,6 +17,7 @@ public class Product extends Base {
 
     // 2 - Construtor
     public Product(WebDriver driver) {
+
         super(driver);
     }
 
@@ -37,3 +38,6 @@ public class Product extends Base {
     }
 
 }
+
+//classes de páginas -  mapeamentos são dependentes das classes de passos, não tem Base base
+//classes de ações/passos que falam com a Base diretamente utiliza a váriavel Base base e o super

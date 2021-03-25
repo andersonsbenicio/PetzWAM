@@ -11,9 +11,7 @@ public class Hooks extends Base {
     private Base base; //objeto local para a comunicação com o objeto da classe extendida
 
     //Construtor para a classe Base
-    //public Hooks(WebDriver driver) {
-    //    super(driver);
-    //}
+
     public Hooks(Base base){
         super(base.driver);
         this.base = base;

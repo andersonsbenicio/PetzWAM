@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Base {
 
-    protected WebDriver driver; // Objeto do Selenium WebDriver, vulgo bola
+    public WebDriver driver; // Objeto do Selenium WebDriver, vulgo bola
     //Ao usar Page Factory mudar de public para protected
 
     //criar um contrutor e inicializar os elementos do Page Factory

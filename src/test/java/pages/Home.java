@@ -19,6 +19,7 @@ public class Home extends Base {
 
     // Construtor da Página - Diferente do construtor, ele não possui um objeto privado e importa a classe Base
     public Home(WebDriver driver) {
+
         super(driver);
     }
 

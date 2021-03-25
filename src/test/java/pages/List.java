@@ -17,6 +17,7 @@ public class List extends Base {
     // 2 - Construtor
 
     public List(WebDriver driver) {
+
         super(driver);
     }
 
